@@ -1,0 +1,32 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 20%;
+}
+
+.header{
+    padding: 10px 16px;
+    background:#555;
+    color: #f1f1f1;
+}
+
+.content {
+    padding: 16px;
+}
+
+.button{
+    padding: 50%;
+    margin: auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+/* dude I got recked son */
